@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+title: Sol Sarratea
+email: mssarratea@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Computational artist and software developer.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://solquemal.com"
+github_username:  solsarratea
+instagram: solquemal
+g_analytics: UA-12345678-1
+
+
+# posts
+date_format: "%Y"
+post_title: Name
+post_date: Year
+post_cat: Genre
+
+# post detail
+prev-next: true
+
+#bio
+header: Sol Sarratea
+desc: >
+  Computational artist
+
+
+  Drop me at mssarratea [a] gmail .com
+
+
+# posts
+date_format: "%Y"
+post_title: Story
+post_date: Year
+post_cat: Genre
+
+# post detail
+prev-next: true
+
+defaults:
+- scope:
+    path: "assets/img"
+values:
+  image: true
+
+
+# Build settings
+markdown: kramdown
+theme: louie
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

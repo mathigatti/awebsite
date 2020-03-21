@@ -1,0 +1,18 @@
+.m--nav {
+  a {
+    margin-right: 3rem;
+    opacity: 0.3;
+    line-height: 1.4;
+    font-size: 1.8rem;
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      opacity: 1;
+    }
+
+    &:hover {
+      color: $v--color-yellow;
+    }
+  }
+}

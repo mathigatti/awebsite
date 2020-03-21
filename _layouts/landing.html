@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ prepend: site.baseurl }}">
+  {% include head.html %}
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+ <script src="assets/model.js"></script>
+</head>
+
+<body>
+    <div class="container">
+      {% include header.html %}
+      {% if site.data.navigation %}
+      <div class=m--nav>
+        {% for item in site.data.navigation %}
+        <a class="{% if page.name == 'landling.html' %}active{% endif %}" href="{{item.url}}">{{item.title}} ↓</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+</body>
+</html>
