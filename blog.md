@@ -1,7 +1,7 @@
 ---
 layout: default
-title: blog 
-permalink: /blog
+title: notes
+permalink: /notes
 ---
 
 {% include posts_list.html %}
