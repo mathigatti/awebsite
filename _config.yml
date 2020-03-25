@@ -16,9 +16,9 @@ g_analytics: UA-12345678-1
 
 # posts
 date_format: "%Y"
-post_title: Name
+post_title: Title
 post_date: Year
-post_cat: Genre
+post_cat: About
 
 # post detail
 prev-next: true
@@ -30,13 +30,6 @@ desc: >
 
 
   Drop me at mssarratea [a] gmail .com
-
-
-# posts
-date_format: "%Y"
-post_title: Story
-post_date: Year
-post_cat: Genre
 
 # post detail
 prev-next: true

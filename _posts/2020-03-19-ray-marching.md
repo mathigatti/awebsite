@@ -3,7 +3,6 @@ layout: post
 title:  Ray marching
 category: shaders
 img: https://i.pinimg.com/originals/f2/d2/3b/f2d23b843880a68af8b5d5d05ff69ae9.jpg
-path: "analogy-ray-march"
  
 ---
 
