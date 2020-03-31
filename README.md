@@ -1,2 +1,2 @@
-# mathigatti
+# Sol Sarratea
 Personal Website
