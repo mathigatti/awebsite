@@ -23,7 +23,7 @@ Let's dive into examles:
  
  
  
- For understnding it, imagine time is discrete: [0 1 2 3 4 5 6 7 ...]
+ For understanding it, imagine time is discrete: [0 1 2 3 4 5 6 7 ...]
 
  and for each moment t, for each x in space: you are defining C the concentration of ink accordingly to D a constant that represents the rate of diffusion; and N, value obtained from the difference of the value of x and a value representing it neighbourhood at the previous step, for example average.
 
