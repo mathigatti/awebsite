@@ -1,4 +1,9 @@
-- title: Notes
-  url: "/notes"
+- title: About
+  url: "/about"
+
 - title: Projects
   url: "/projects"
+
+- title: Notes
+  url: "/notes"
+  
