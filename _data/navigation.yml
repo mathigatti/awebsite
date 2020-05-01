@@ -1,6 +1,9 @@
 - title: About
   url: "/about"
 
+- title: Portfolio
+  url: "https://portfolio.solquemal.com/"
+
 - title: Projects
   url: "/projects"
 
