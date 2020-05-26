@@ -5,14 +5,8 @@
   <body>
     <div class="container">
       {% include header.html %}
-
-      {% if site.data.navigation %}
-      <div class=m--nav>
-        {% for item in site.data.navigation %}
-        <a class="{% if page.name == 'blog.md' %}active{% endif %}" href="{{item.url}}">{{item.title}} ↓</a>
-        {% endfor %}
-      </div>
-      {% endif %}
+      {% include navigation.html %}
        {{ content }}
     </div>
+    {% include community.html %}
 </body>

@@ -1,0 +1,11 @@
+{% if site.data.community %}
+<fotter style="bottom: 0; position:absolute; right: 0; margin-bottom: 5em; margin-right: 5em;">
+    <div style="display: flex; justify-content: flex-end;">
+        {% for item in site.data.community %}
+        <a href="{{item.url}}" target='_blank'>
+            <img style="width: 1.5em" src='{{item.src}}' /></a>
+        {% endfor %}
+    </div>
+    Communities
+    </footer>
+    {% endif %}

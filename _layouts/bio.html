@@ -4,22 +4,17 @@
 
   <body>
     <div class="container">
-        {% include header.html %}
+      {% include header.html %}
+      
+      {% include navigation.html %}
+      
+        <div class="post">
 
-        {% if site.data.navigation %}
-        <div class=m--nav>
-          {% for item in site.data.navigation %}
-          <a class="{% if page.name == 'blog.md' %}active{% endif %}" href="{{item.url}}">{{item.title}} ↓</a>
-          {% endfor %}
-        </div>
-        {% endif %}
-         <div class="post">
-
-        <div class="post__body, boder-bottom=0;">
-          {{ content }}
-        </div>
-
+          <div class="post__body, boder-bottom=0;">
+            {{ content }}
+          </div>
     </div>
+    {% include community.html %}
   </body>
 
 </html>
