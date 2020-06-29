@@ -15,14 +15,14 @@ In 1952, he presented [The chemical basis of Morphogenesis](http://www.dna.calte
 
 These are known as  **Reaction diffusion systems**, and they are mathematical models which  study the behavior of different phenomenons, such as the variation of concentration of one or more chemical substances.
 
-The difference between words and code is the difference between
-telling and doing. Let's implement these models,and create some patterns by the power of computability!
+And because I believe that the difference between words and code is like the difference between
+telling and doing. Let's rather implement these models,and create some patterns with the power of computability!
 
 
 ### Reducing the system to one substance: 
 
  <div style="display: flex; justify-content:space-around">
-    <div style="padding:.5em"> When throwing ink into water, the ink moves from higher concentrations to lower. This proccess is called **diffusion**,  it is normally thought of as a smooth and stable process. and can be mathematically modelled with the following equation: 
+    <div style="padding:.5em"> When throwing ink into water, the ink moves from higher concentrations to lower. This proccess is called <b>diffusion</b>,  it is normally thought of as a smooth and stable process, and can be mathematically modelled with the following equation: 
   
   </div>
   <img src="https://i.pinimg.com/originals/7e/57/7d/7e577dd75ec4865cada599ba7d90acda.gif" alt="ink" style="height: 100px; width:190px;"/> 
@@ -36,13 +36,14 @@ telling and doing. Let's implement these models,and create some patterns by the 
 
 
  **Understanding formula by implementing it**
+ 
    What we need is defining a concentration value for each point in space, which will be changing while time goes by:
   
   `C(x, t)` 
  
  Lets imagine time is discrete: t in [0 1 2 3 4 5 6 7 ...] 
  
- For each moment t, for each x in space:  we are defining C, the concentration of ink, accordingly to a constant that represents the rate of diffusion [D]; and a value obtained from the how the concentration in x changed according to its neighbourhood in the previous step [ N(x, t-1)].
+ For each moment t, for each x in space:  we are defining C, the concentration of ink, according to a constant that represents the rate of diffusion [D]; and a value obtained from how the concentration in x changed according to its neighbourhood in the previous step [ N(x, t-1)].
 For example, by taking the difference of the value of x and the average of its neighbourhood at t-1.
  
 So our discrete interpretation of the formula would look something like this:
@@ -52,7 +53,7 @@ So our discrete interpretation of the formula would look something like this:
  
 ### Three.js  + WebGL implementation
 
-For creating a visualization of this system, it is important to notice that previous state will be needed for defining actual values. In other words, we will be using the output of previous step, for feeding the input of the actual step.  These are known as feedback systems, and can be thought it as a sequence of frames: 
+For creating a visualization of this system, it is important to notice that previous state will be needed for defining actual values. In other words, we will be using the output of previous step, for feeding the input of the actual one.  These are known as feedback systems, and can be thought it as a sequence of frames: 
   
  <img src="/assets/img/reaction-diffusion/frame-by-frame.jpeg" style="height: 100px; width:490px;"/>
  
@@ -62,7 +63,7 @@ Specifically in diffusion, each pixel will be map to a color value representing 
 
 I used Three.js for rendering each frame, and WebGL for implementing the diffusion algorithm.
 
-I implemented the Ping-pong rendering technique to being able to define actual frame in terms of last one. As we need somehow to save the information of previous frame.
+I implemented the Ping-pong rendering technique for being able to define actual frame in terms of last one. As we need somehow to save the information of previous frame.
 
 Defining Three.js script general structure:
 
@@ -114,7 +115,7 @@ Defining Three.js script general structure:
   function render(){
     requestAnimationFrame( render );
     //Ping to buffer scene
-    renderer.setRenderTarget(ping); [**]
+    renderer.setRenderTarget(ping);
     renderer.render(bufferScene, camera);
 
     renderer.setRenderTarget(null);
@@ -132,9 +133,6 @@ Defining Three.js script general structure:
     renderer.render( scene, camera );
   }
   ```
-  
-  [**] I found this a little bit tricky
- 
  
 ### Understanding how ping pong buffers worked 
 
@@ -166,11 +164,12 @@ Where:
    <img src="/assets/img/reaction-diffusion/pattern2.jpg" style="height: 100px; width:190px;"/>
    <img src="/assets/img/reaction-diffusion/pattern3.jpg" alt="Reaction diffusion" style="height: 100px; width:190px;"/>
   </div>
- 
 
-Going back to Turing's article. He described systems which have two different substances, and called them morphogens. This are diffusing at different rates and reacting together.
+We already have a sense of what diffusion is. Now let's suppose that the system has more than one substance, which will be diffusing at different rates and reacting together.
 
-In the reaction, the substances works opposite to each other, as it is known in a growth-decay or activator-inhibtor relationship. And if as a pre-condition the reaction rate of the decay is faster the the growth rate,  you would expect the system to behave smoothly and stable like a diffusion one, but here is where Turing introduced an amazing idea: known as "diffusion-driven instability", where the diffusion rates of substances would carry an asymetry thorughout the solution, so under certain parameters these instabilities cause the formation of patterned concentrations. 
+Going back to Turing's article. He described these systems, with two substances and called them morphogens.
+
+In the reaction, morphogens works opposite to each other, as it is known in a growth-decay or activator-inhibtor relationship. And if as a pre-condition the reaction rate of the decay is faster the the growth rate,  you would expect the system to behave smoothly and stable like a diffusion one, but here is where Turing introduced an amazing idea: known as "diffusion-driven instability", where the diffusion rates of substances would carry an asymetry thorughout the solution, so under certain parameters these instabilities cause the formation of patterned concentrations. 
 
 
 For learning more I suggest reading [pattern formation in the animal skin](http://hopf.chem.brandeis.edu/members_content/yanglingfa/pattern/Turing/The%20reaction-diffusion%20system_%20a%20mechanism%20for%20autonomous.pdf).
