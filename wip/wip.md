@@ -9,13 +9,13 @@ permalink: /wip
 
 ## SHADER TIME - Livecoding con [The_Force](https://shawnlawson.github.io/The_Force/)
 
-  Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aaa1e8e9c55d9d8)
+  ARRANCA EL LUNES 3 DE AGOSTO :) 
+
+
+	Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aaa1e8e9c55d9d8)
 
   Ver el [pdf con descripcion general del curso](/curso)
   
-  Acceder a las [Slides](https://docs.google.com/presentation/d/11QInj_ua6b9o9viMfzlJxVSMxbD5KKyUMz3fayS18IE/edit#slide=id.g8eafb65932_0_43)
-  
-  Todo el código visto esta [aca](https://github.com/solsarratea/shaders-workshop)
   
 # Clases
 
@@ -35,9 +35,9 @@ permalink: /wip
   
 ## Cronograma:
 
-## [Clase 0 : Intro + Fundamentales I ](/wip-intro)
+## [Clase 0 : Intro + Fundamentales I ](/wip)
 
-## [Clase 1 : Fundamentales II ](/wip-funda)
+## [Clase 1 : Fundamentales II ](/wip)
 
 ## [Clase 2 : Fractales 2D ](/wip)
 
