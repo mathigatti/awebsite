@@ -12,7 +12,8 @@ permalink: /wip
   ARRANCA EL LUNES 3 DE AGOSTO :) 
 
 
-	Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aaa1e8e9c55d9d8)
+	Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. 
+Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aaa1e8e9c55d9d8)
 
   Ver el [pdf con descripcion general del curso](/curso)
   
