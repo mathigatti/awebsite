@@ -5,11 +5,15 @@ permalink: /wip-intro
 
 ---
 
-# Introduccion al livecoding, shaders y WebGL
+# Introduccion al livecoding, shaders, WebGL y GLSL
 
-## [Slides](https://docs.google.com/presentation/d/1IIWlLuQYwBq4rilKvZmynUDY-CZrCwfwyEB8DgVIZ5Y/edit#slide=id.p)
+```
+OpenGL Shading Language (abreviado GLSL o GLslang) es un lenguaje de alto nivel de sombreado con una sintaxis basada en el lenguaje de programación C.
+Permite escribir programas, llamados shaders, que se ejecutan directamente sobre la tarjeta grafica de tu compu.
 
-## Code
+Livecoding es la practica de escribir codigo que va a ser ejecturado a tiempo real. Generalmente utilizado para la produccion de contendioaudiovisual.
+
+```
 
 ### Livecoding shaders
 

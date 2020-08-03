@@ -5,17 +5,16 @@ permalink: /wip
 
 ---
 
-# BIENVENIDOS (ツ) 
+# BIENVENIDES (ツ) 
 
 ## SHADER TIME - Livecoding con [The_Force](https://shawnlawson.github.io/The_Force/)
 
   ARRANCA EL LUNES 3 DE AGOSTO :) 
 
+Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. 
+Ver [codigo de conducta](https://berlincodeofconduct.org/es/)
 
-	Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. 
-Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aaa1e8e9c55d9d8)
-
-  Ver el [pdf con descripcion general del curso](/curso)
+Ver el [pdf con descripcion general del curso](/curso)
   
   
 # Clases
@@ -30,7 +29,7 @@ Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aa
   19:00 - 19:20 (20 min): Intro a la clase 
   19:20 - 20-00 (40 min): Escribimos juntes un script 
   20:00 - 20-35 (35 min): Tiempo creativo!
-  20:35 - 20-15 (10 min): Cada une muestra laburo
+  20:35 - 20-50 (15 min): Cada une muestra laburo
   20:50 - 21-00 (10 min): Preguntas y respuestas
 ```
   
@@ -51,6 +50,7 @@ Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aa
 
 # Recursos
 ## MATERIAL INTERACTIVO
+### [Material teorico](https://pad.riseup.net/p/GLSL)
 ### [Explorador de funciones](/simulacion) : quiero transformarme en mat-ninja ( Mezcla entre matematica, manija, y ninja)
 ### [Explorador de funciones +](https://www.desmos.com/calculator)
 ### [Cosine pallete](https://www.desmos.com/calculator/rz7abjujdj)
@@ -66,7 +66,7 @@ Ver [codigo de conducta](https://gist.github.com/solsarratea/1409b0afe055a29e6aa
 ## COMUNIDAD
  [Shadertoy](https://www.shadertoy.com/)
  [Sandbox](http://glslsandbox.com/)
-  
+ [Book of shaders - Editor](https://thebookofshaders.com/edit.php?fbclid=IwAR1tn_Cu8qD9HK-NavBpCn-Q3djgjj5pmYSdKpKqHCFWuw_fM5O8Y0lA-rE#09/zigzag.frag)
 
 
 
