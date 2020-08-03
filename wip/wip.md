@@ -35,7 +35,7 @@ Ver el [pdf con descripcion general del curso](/curso)
   
 ## Cronograma:
 
-## [Clase 0 : Intro + Fundamentales I ](/wip)
+## [Clase 0 : Intro + Fundamentales I ](/wip-intro)
 
 ## [Clase 1 : Fundamentales II ](/wip)
 
