@@ -9,7 +9,7 @@ permalink: /wip
 
 ## SHADER TIME - Livecoding con [The_Force](https://shawnlawson.github.io/The_Force/)
 
-  ARRANCA EL LUNES 3 DE AGOSTO :) 
+Este es un template con material de referencia para guiar las clases.
 
 Curso de 6 clases remotas. Construyamos espacio seguro, cuidandonos. 
 Ver [codigo de conducta](https://berlincodeofconduct.org/es/)
@@ -21,7 +21,6 @@ Ver el [pdf con descripcion general del curso](/curso)
 
 ## Herramientas: 
 ### [Documento vivo](https://pad.riseup.net/p/livecoding-con-glsl)
-
 ### [Machete](https://github.com/solsarratea/shaders-workshop/blob/master/cheatsheet.glsl) : codigo util  para tiempo creativo ~~(*_ *)~  
   
   Estructura de las clases : 
@@ -35,7 +34,7 @@ Ver el [pdf con descripcion general del curso](/curso)
   
 ## Cronograma:
 
-## [Clase 0 : Intro + Fundamentales I ](/wip-intro)
+## [Clase 0 : Intro + Fundamentales I ](/wip)
 
 ## [Clase 1 : Fundamentales II ](/wip)
 
